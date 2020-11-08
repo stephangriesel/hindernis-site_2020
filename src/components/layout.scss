@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
-h1, h4, li {
+h1,
+h4,
+li {
   font-family: "Adam", sans-serif;
 }
 
@@ -67,7 +69,7 @@ section {
 }
 
 .footer {
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
   background: var(--mainBlack);
   color: var(--mainGrey);
   text-decoration: none;
@@ -84,6 +86,11 @@ section {
   min-height: 50vh;
 }
 
+.prd-desc-option {
+  cursor: pointer;
+  font-weight: 900;
+}
+
 /* Bootstrap Override*/
 
 .prd-item {
@@ -95,7 +102,7 @@ section {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width:400px;
+  width: 400px;
 }
 
 .prd-img {
@@ -106,7 +113,7 @@ section {
 }
 
 .prd-desc {
-  display:flex !important;
+  display: flex !important;
   justify-content: center !important;
   align-content: center !important;
   align-items: center !important;
@@ -114,12 +121,12 @@ section {
 
 .card {
   background-color: var(--mainDarkerGrey);
-  border:solid #FFF 1px;
+  border: solid #fff 1px;
 }
 
 picture {
   img {
-    padding:1.5em !important;
+    padding: 1.5em !important;
   }
 }
 
@@ -134,23 +141,22 @@ picture {
 
 .snip-layout {
   .snip-footer__copyright {
-    font-size:0 !important;
-    height:20px;
+    font-size: 0 !important;
+    height: 20px;
   }
 }
 
 .snip-btn--highlight {
-  color:#FFFFFF !important;
-  background:var(--mainBlack) !important;
+  color: #ffffff !important;
+  background: var(--mainBlack) !important;
   &:hover {
-    color:#979797;
+    color: #979797;
   }
 }
 
 .snipcart-checkout {
-  background:var(--mainBlack);
+  background: var(--mainBlack);
 }
-  
 
 @-webkit-keyframes fade-in {
   0% {

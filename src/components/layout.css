@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-h1, h4, li {
+h1,
+h4,
+li {
   font-family: "Adam", sans-serif;
 }
 
@@ -78,7 +80,7 @@ body {
 }
 
 .footer {
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
   background: var(--mainBlack);
   color: var(--mainGrey);
   text-decoration: none;
@@ -94,6 +96,11 @@ body {
 
 .contact {
   min-height: 50vh;
+}
+
+.prd-desc-option {
+  cursor: pointer;
+  font-weight: 900;
 }
 
 /* Bootstrap Override*/
@@ -142,7 +149,7 @@ body {
 
 .card {
   background-color: var(--mainDarkerGrey);
-  border: solid #FFF 1px;
+  border: solid #fff 1px;
 }
 
 picture img {
@@ -162,7 +169,7 @@ picture img {
 }
 
 .snip-btn--highlight {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   background: var(--mainBlack) !important;
 }
 
