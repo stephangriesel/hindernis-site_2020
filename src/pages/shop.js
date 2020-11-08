@@ -35,6 +35,7 @@ export const query = graphql`
   product:allContentfulListProduct {
     edges {
       node {
+        show
         id
         title
         category

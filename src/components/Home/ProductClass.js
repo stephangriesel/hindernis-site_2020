@@ -78,6 +78,7 @@ export default class ProductClass extends Component {
         super(props)
         console.log("<< TEST PRODUCTS >>")
         console.log(props.products)
+        console.log(props.products);
         this.state = {
             products: props.products.edges,
             allProducts: props.products.edges,
@@ -143,14 +144,15 @@ export default class ProductClass extends Component {
                                             </p>
 
                                             <div className="mx-auto">
-                                                <p className="prd-desc-option" onClick={() => { this.setState({ show: !this.state.show }) }}>{this.state.show ? 'Hide' : 'Show'} Description
-                                                </p>
+                                                {/* <p className="prd-desc-option" onClick={() => { this.setState({ show: !this.state.show }) }}>{this.state.show ? 'Hide' : 'Show'} Description
+                                                </p> */}
                                             </div>
 
                                             <div className="mx-auto pb-3">
-                                                {this.state.show ? <div><p className="mb-6 pt-3 text-center">
-                                                    {node.description.description}
-                                                </p></div> : null}
+                                                {node.show ?
+                                                    <div><p className="mb-6 pt-3 text-center">
+                                                        {node.description.description}
+                                                    </p></div> : null}
                                             </div>
 
                                             <div className="mx-auto">
